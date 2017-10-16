@@ -40,6 +40,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Connectors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BTDQMGTX
+
+[Document2]
 DocumentPath=Connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -56,7 +73,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RERHEFNU
 
-[Document2]
+[Document3]
 DocumentPath=Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -73,7 +90,41 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LKOJRNQQ
 
-[Document3]
+[Document4]
+DocumentPath=Passives.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OJYOEMYH
+
+[Document5]
+DocumentPath=Passives.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NBNLHPTO
+
+[Document6]
 DocumentPath=Inductors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPDTIMPE
 
-[Document4]
+[Document7]
 DocumentPath=Modules.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +158,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVWBYUEF
 
-[Document5]
+[Document8]
 DocumentPath=Modules.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHGEJAAB
 
-[Document6]
+[Document9]
 DocumentPath=Various.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -141,6 +192,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNKXOGIM
 
+[GeneratedDocument1]
+DocumentPath=MCGPR6.3V108M8X12.LOG
+DItemRevisionGUID=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -155,7 +210,7 @@ OutputDefault1=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother MFC-J6910DW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 
 [OutputGroup3]
