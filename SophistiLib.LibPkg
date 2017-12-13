@@ -28,9 +28,11 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
+ForceUpdateCount=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
+LinkedManagedProjectGUID=
 StorageID=
 
 [Preferences]
@@ -190,6 +192,39 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DNKXOGIM
 
+[Document10]
+DocumentPath=Images.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=URVDTGVM
+
+[GeneratedDocument1]
+DocumentPath=Humid.LOG
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=HumidtemperatureIcon.LOG
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=MGU Logo.LOG
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Water.LOG
+DItemRevisionGUID=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -300,7 +335,6 @@ OutputName1=Report Board Stack
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=CompositeDrill
 OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
@@ -845,6 +879,8 @@ Type112=3
 Type113=3
 Type114=3
 Type115=1
+Type116=1
+Type117=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
