@@ -277,8 +277,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WNIIOLJN
 
+[Document15]
+DocumentPath=SOP65P640X110-16N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PJHVXCUC
+
 [GeneratedDocument1]
 DocumentPath=1776275-2.LOG
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=LGA-14.LOG
 DItemRevisionGUID=
 
 [OutputGroup1]
