@@ -289,6 +289,10 @@ DItemRevisionGUID=
 DocumentPath=TSSOP20.LOG
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=WSON8.LOG
+DItemRevisionGUID=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
