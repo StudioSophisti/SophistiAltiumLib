@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother MFC-J6910DW#:1
+TargetPrinter=Gprinter  GP-1134T
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -34,33 +34,33 @@ OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputType1=Gerber
-OutputName1=Gerber Files
+OutputName1=CAM
 OutputCategory1=Fabrication
 OutputDocumentPath1=
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
-OutputEnabled1_OutputMedium3=6
+OutputEnabled1_OutputMedium3=4
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 OutputType2=NC Drill
-OutputName2=NC Drill Files
+OutputName2=CAM
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
-OutputEnabled2_OutputMedium3=7
+OutputEnabled2_OutputMedium3=5
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes
 OutputType3=BOM_PartType
-OutputName3=Bill of Materials
+OutputName3=BOM
 OutputCategory3=Report
 OutputDocumentPath3=[ActiveBOM Document]
 OutputVariantName3=
@@ -92,7 +92,7 @@ Configuration3_Item9=Line #=100|Comment=100|Description=100|Designator=100|Quant
 Configuration3_Name10=VisibleOrder_Flat
 Configuration3_Item10=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100
 OutputType4=Pick Place
-OutputName4=Generates pick and place files
+OutputName4=Pick and Place
 OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
@@ -105,46 +105,46 @@ OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Current_Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#18=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#19=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#20=Name:Note,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#21=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#22=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#23=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#24=Name:RevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#25=Name:Comment_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#26=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#27=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#28=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#29=Name:Manufacturer_PN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#30=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#31=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#32=Name:Current_Saturation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#33=Name:Supplier 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#34=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#35=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#36=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#37=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#38=Name:Datasheet,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#39=Name:Owner,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#40=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#41=Name:Dielectric_Characteristic,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#42=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#43=Name:Schielding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#44=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#45=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#46=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#47=Name:RevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#48=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#49=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#50=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#51=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#52=Name:Supplier Part Number 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#53=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#54=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#55=Name:Alternative allowed,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#56=Name:DC_Resistance_typ.,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28
 OutputType5=Save As/Export PCB
-OutputName5=Save As/Export PCB
+OutputName5=Layout
 OutputCategory5=Export
 OutputDocumentPath5=
 OutputVariantName5=
 OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=3
+OutputEnabled5_OutputMedium3=6
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=UniExporterView
+Configuration5_Item1=Format=PCB Binary Files (*.PcbDoc)|Record=UniExporterView
 OutputType6=Save As/Export Schematic
-OutputName6=Save As/Export Schematic
+OutputName6=Schematics
 OutputCategory6=Export
 OutputDocumentPath6=
 OutputVariantName6=
 OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=4
+OutputEnabled6_OutputMedium3=7
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=UniExporterView
+Configuration6_Item1=Format=Advanced Schematic binary (*.SchDoc)|Record=UniExporterView
 OutputType7=ExportSTEP
-OutputName7=Export STEP
+OutputName7=3D
 OutputCategory7=Export
 OutputDocumentPath7=
 OutputVariantName7=
 OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=5
+OutputEnabled7_OutputMedium3=3
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False
 OutputType8=PCB Print
-OutputName8=PCB Print
+OutputName8=Layout
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
@@ -219,7 +219,7 @@ Configuration8_Name31=OutputConfigurationParameter31
 Configuration8_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Courtyard Bottom|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
 PcbPrintPreferences8=
 OutputType9=PDF3D
-OutputName9=PDF3D
+OutputName9=3D
 OutputCategory9=Documentation
 OutputDocumentPath9=
 OutputVariantName9=
@@ -232,22 +232,36 @@ OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
+OutputType10=Schematic Print
+OutputName10=Schematics
+OutputCategory10=Documentation
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=3
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=Z:\Develop\hyko-pcb\main\Outputs\Hyko-2018-08-16\
+OutputFilePath2=Z:\Develop\HWiD-PCB\PuckBottom\Outputs\PuckBottom-2018-08-17\
 ReleaseManaged2=0
 OutputBasePath2=Outputs\
 OutputPathMedia2==ProjectName + '-' + CurrentDate
 OutputPathMediaValue2==ProjectName + '-' + CurrentDate
-OutputPathOutputer2=[Output Type]
+OutputPathOutputer2=[Output Name]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
 OutputFileName2=Sophisti_Default_Altium.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2==ProjectName.PDF
-OpenOutput2=1
-PromptOverwrite2=1
+OpenOutput2=0
+PromptOverwrite2=0
 PublishMethod2=1
 ZoomLevel2=50
 FitSCHPrintSizeToDoc2=1
@@ -256,27 +270,27 @@ GenerateNetsInfo2=1
 MarkPins2=1
 MarkNetLabels2=1
 MarkPortsId2=1
-GenerateTOC2=1
+GenerateTOC2=0
 ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Z:\Develop\hyko-pcb\main\Outputs\Hyko-2018-08-16\
+OutputFilePath3=Z:\Develop\HWiD-PCB\PuckBottomPogo\Outputs\PuckBottomPogo-2018-08-20\
 ReleaseManaged3=0
 OutputBasePath3=Outputs\
 OutputPathMedia3==ProjectName + '-' + CurrentDate
 OutputPathMediaValue3==ProjectName + '-' + CurrentDate
-OutputPathOutputer3=[Output Type]
+OutputPathOutputer3=[Output Name]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=DeltaProto
 OutputFileName3=
 OutputFileNameMulti3=t
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Hyko
+OutputBasePath4=Project Outputs for PuckBottomPogo
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -313,11 +327,11 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Z:\Develop\hyko-pcb\main\Outputs\Hyko-2018-08-16\
-OpenOutputs2=1
-RelativeOutputPath3=Z:\Develop\hyko-pcb\main\Outputs\Hyko-2018-08-16\
-OpenOutputs3=1
-AddToProject3=1
+RelativeOutputPath2=Z:\Develop\HWiD-PCB\PuckBottom\Outputs\PuckBottom-2018-08-17\
+OpenOutputs2=0
+RelativeOutputPath3=Z:\Develop\HWiD-PCB\PuckBottomPogo\Outputs\PuckBottomPogo-2018-08-20\
+OpenOutputs3=0
+AddToProject3=0
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
