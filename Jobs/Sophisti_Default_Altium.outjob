@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Sophisti_Default_Altium.outjob
+Name=
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Gprinter  GP-1134T
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -38,7 +38,7 @@ OutputName1=CAM
 OutputCategory1=Fabrication
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=4
@@ -51,7 +51,7 @@ OutputName2=CAM
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=5
@@ -64,7 +64,7 @@ OutputName3=BOM
 OutputCategory3=Report
 OutputDocumentPath3=[ActiveBOM Document]
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=2
@@ -96,7 +96,7 @@ OutputName4=Pick and Place
 OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=1
@@ -109,7 +109,7 @@ OutputName5=Layout
 OutputCategory5=Export
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=6
@@ -122,7 +122,7 @@ OutputName6=Schematics
 OutputCategory6=Export
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=7
@@ -135,7 +135,7 @@ OutputName7=3D
 OutputCategory7=Export
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=3
@@ -148,7 +148,7 @@ OutputName8=Layout
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=2
 OutputEnabled8_OutputMedium3=0
@@ -223,7 +223,7 @@ OutputName9=3D
 OutputCategory9=Documentation
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=1
 OutputEnabled9_OutputMedium3=0
@@ -237,7 +237,7 @@ OutputName10=Schematics
 OutputCategory10=Documentation
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=0
+OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=3
 OutputEnabled10_OutputMedium3=0
@@ -248,11 +248,11 @@ Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=Z:\Develop\HWiD-PCB\PuckBottom\Outputs\PuckBottom-2018-08-17\
+OutputFilePath2=Z:\Develop\smart-track-pcb\base_ir\Outputs\SmartBaseIR-2018-08-22\
 ReleaseManaged2=0
 OutputBasePath2=Outputs\
-OutputPathMedia2==ProjectName + '-' + CurrentDate
-OutputPathMediaValue2==ProjectName + '-' + CurrentDate
+OutputPathMedia2==ProjectName + '_' + CurrentDate
+OutputPathMediaValue2==ProjectName + '_' + CurrentDate
 OutputPathOutputer2=[Output Name]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
@@ -275,11 +275,11 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Z:\Develop\HWiD-PCB\PuckBottomPogo\Outputs\PuckBottomPogo-2018-08-20\
+OutputFilePath3=Z:\Develop\smart-track-pcb\base_ir\Outputs\SmartBaseIR-2018-08-22\
 ReleaseManaged3=0
 OutputBasePath3=Outputs\
-OutputPathMedia3==ProjectName + '-' + CurrentDate
-OutputPathMediaValue3==ProjectName + '-' + CurrentDate
+OutputPathMedia3==ProjectName + '_' + CurrentDate
+OutputPathMediaValue3==ProjectName + '_' + CurrentDate
 OutputPathOutputer3=[Output Name]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=DeltaProto
@@ -290,7 +290,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for PuckBottomPogo
+OutputBasePath4=Project Outputs for SmartBaseIR
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -327,9 +327,9 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Z:\Develop\HWiD-PCB\PuckBottom\Outputs\PuckBottom-2018-08-17\
+RelativeOutputPath2=Z:\Develop\smart-track-pcb\base_ir\Outputs\SmartBaseIR-2018-08-22\
 OpenOutputs2=0
-RelativeOutputPath3=Z:\Develop\HWiD-PCB\PuckBottomPogo\Outputs\PuckBottomPogo-2018-08-20\
+RelativeOutputPath3=Z:\Develop\smart-track-pcb\base_ir\Outputs\SmartBaseIR-2018-08-22\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
